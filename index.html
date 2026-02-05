@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>XV Años Juliana</title>
+  <meta property="og:title" content="XV Años Juliana">
+  <meta property="og:description" content="Te invitamos a celebrar los XV años de Juliana.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dtesillo.github.io/xv-mariana/">
+  <meta property="og:image" content="https://dtesillo.github.io/xv-mariana/img/portada-og.webp">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  
+  <!-- Twitter Card (opcional) -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="XV Años Juliana">
+  <meta name="twitter:description" content="Te invitamos a celebrar una noche especial.">
+  <meta name="twitter:image" content="https://inspiring-buttercream-f0b490.netlify.app/img/portada-og.webp">
+  <!-- Tipos de letra -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Great+Vibes&family=Didact+Gothic&display=swap">
+
+</head>
+<body>
+  <div class="butterfly-layer"></div>
+  <div class="butterflies">
+    <span class="butterfly b1"><img src="img/mariposa.png" alt=""></span>
+    <span class="butterfly b2"><img src="img/mariposa.png" alt=""></span>
+    <span class="butterfly b3"><img src="img/mariposa.png" alt=""></span>
+    <span class="butterfly b4"><img src="img/mariposa.png" alt=""></span>
+  </div>
+  <!-- HERO / PORTADA -->
+  <header class="hero" id="inicio">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-subtitle">Cumplir 15 años y compartilos con los que amo es una </p>
+      <p class="hero-subtitle">manera de ser feliz y celebrar estos quince años que me </p>
+      <p class="hero-subtitle">han sido dados para fortalecer los dones que Dios me </p>
+      <p class="hero-subtitle">dio en todos los actos de mi vida </p>
+        <p ></p>   <p ></p>   <p ></p>   <p ></p>   <p ></p>   <p ></p> 
+         <p ></p>   <p ></p>   <p ></p>   <p ></p>   <p ></p>   <p ></p> 
+      <h1 class="hero-name">Juliana</h1>
+       <p ></p>   <p ></p>   <p ></p>   <p ></p>   <p ></p>   <p ></p> 
+        <p ></p>   <p ></p>   <p ></p>   <p ></p>   <p ></p>   <p ></p> 
+      <p class="hero-date">21 de Febrero de 2026</p>
+      <p class="hero-time">07:00 pm</p>
+    </div>
+  </header>
+
+  <!-- LUGAR / MAPA -->
+  <section class="section section-light" id="lugar">
+    <h2 class="title-script">El Castillo Gourmet</h2>
+    <p class="text-small">Cra. 19 #20-7 Sabanalarga Atlántico</p>
+
+    <!-- aquí luego pegas tu iframe de Google Maps -->
+    <div class="map-placeholder">
+      <p ><iframe
+        src="https://maps.google.com/maps?q=Cra.%2019%20%2320-7%20Sabanalarga%20Atlantico&output=embed"
+        width="100%"
+        height="350"
+        style="border:0;"
+        loading="lazy">
+      </iframe></p>
+    </div>
+  </section>
+
+  <!-- CÓDIGO DE VESTIMENTA -->
+  <section class="section section-dark" id="codigo">
+    
+    <h2 class="title-script">Código de vestimenta</h2>
+    <p class="text-small">Amablemente el color verde solo para la quinceañera </p>
+    <p class="text-small">Sport Elegante</p>
+    <p class="text-small">
+      <button type="button" class="link-like" id="btnVestimenta">
+        Ver ejemplo de vestimenta
+      </button>
+    </p>
+  </section>
+
+  <div id="modalVestimenta" class="modal hidden">
+    <div class="modal-content">
+      <span class="modal-close" id="closeVestimenta">&times;</span>
+      <img src="img/Vestimenta.webp" alt="Ejemplo de vestimenta" loading="lazy"/>
+    </div>
+  </div>
+
+   <!-- CONTADOR -->
+  <section class="section section-dark" id="contador">
+    <h2 class="title2-script">LLUVIA DE SOBRES</h2>
+    <div id="countdown" class="countdown countdown-cards">
+      <div class="count-card">
+        <div class="count-number" id="days">00</div>
+        <div class="count-label">Días</div>
+      </div>
+      <div class="count-card">
+        <div class="count-number" id="hours">00</div>
+        <div class="count-label">Horas</div>
+      </div>
+      <div class="count-card">
+        <div class="count-number" id="minutes">00</div>
+        <div class="count-label">Minutos</div>
+      </div>
+      <div class="count-card">
+        <div class="count-number" id="seconds">00</div>
+        <div class="count-label">Segundos</div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- CONFIRMACIÓN / RSVP -->
+  <section class="section section-light" id="rsvp">
+    <h3 class="text-small">Por favor confirmar antes del 18 de febrero</h3>
+    <h2 class="title-script">Confirmación de asistencia</h2>
+   
+    <form class="rsvp-form">
+        <div class="buttons-row">
+          <button type="button" class="btn main" id="btnConfirmar">Confirmar</button>
+      </div>
+    </form>
+    <h2 class="title-script">Te esperamos</h2>
+
+  </section>
+  <audio autoplay loop id="bgMusic" src="audio/audio.mp3" preload="auto" loop></audio>
+  <script src="js/main.js"></script>
+</body>
+</html>
