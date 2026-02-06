@@ -155,7 +155,7 @@ body > *:not(.butterfly-layer) {
   text-align: center;
   color: #fff;
 
-  background-image: url('../img/portada-og.png');
+  background-image: url('../img/portada-og.webp');
   background-size: 200px;
   background-repeat: no-repeat;
   background-position: left bottom;
