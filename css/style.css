@@ -510,7 +510,7 @@ body > *:not(.butterfly-layer) {
 /* Formularios y botones */
 .rsvp-form {
   max-width: 500px;
-  margin: 20px auto 0;
+  margin: 40px auto 0;
 }
 
 .input {
@@ -526,7 +526,7 @@ body > *:not(.butterfly-layer) {
 .buttons-row {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 82px;
 }
 
 /* estilo base de los botones RSVP */
@@ -538,7 +538,7 @@ body > *:not(.butterfly-layer) {
   border-radius: 999px;
   border: none;
   cursor: pointer;
-  font-size: 30px;
+  font-size: 300px;
   font-family: 'Didact Gothic', system-ui, sans-serif;
   background:#ffffff;
   color: #000;
@@ -551,6 +551,7 @@ body > *:not(.butterfly-layer) {
 .btn.ghost {
   background: var(--accent-soft);
   color: #000;
+  font-size: 70px;
 }
 
 /* último como enlace subrayado */
@@ -628,11 +629,11 @@ body > *:not(.butterfly-layer) {
 
   /* Textos generales */
   .text-small {
-    font-size: 42px;
+    font-size: 62px;
   }
 
   .title-script {
-    font-size: 70px;      /* “Itinerario”, “Confirmación de asistencia”, etc. */
+    font-size: 100px;      /* “Itinerario”, “Confirmación de asistencia”, etc. */
   }
 
   /* Itinerario */
@@ -681,7 +682,7 @@ body > *:not(.butterfly-layer) {
   }
 
   .buttons-row {
-    gap: 12px;
+    gap: 52px;
   }
 
   /* Itinerario en una columna */
