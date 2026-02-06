@@ -707,9 +707,7 @@ body > *:not(.butterfly-layer) {
   .timeline-row .icon {
     display: none;
   }
-  @media (max-width: 600px) {
-    .hero-content {
-      transform: translateY(20px);
-    }
+  @media (min-width: 768px) {
+    body { font-size: 18px; }
   }
   
