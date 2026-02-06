@@ -156,7 +156,7 @@ body > *:not(.butterfly-layer) {
   color: #fff;
 
   background-image: url('../img/portada-og.png');
-  background-size: contain;
+  background-size: 400px;
   background-repeat: no-repeat;
   background-position: left bottom;
   
@@ -186,13 +186,14 @@ body > *:not(.butterfly-layer) {
   color: #ffffff;
   margin: 0 0 4px;
   letter-spacing: 1px;
-  position:sticky;
+  position:relative;
+  top: -80px;
 }
 
 .hero-name {
   font-family: 'Great Vibes','Great Vibes Fallback';
   font-weight: 400;
-  font-size: 84px;
+  font-size: 114px;
   font-style: normal;
   margin: 0 0 8px;
   line-height: 1.05;
@@ -201,10 +202,10 @@ body > *:not(.butterfly-layer) {
 .hero-time,
 .hero-date {
   font-family: 'Great Vibes', 'Great Vibes Fallback';
-  font-size: 36px;
+  font-size: 56px;
   color: #ffffff;
   margin: 0;
-  font-size: 45px;
+  font-size: 55px;
 }
 
 /* Títulos script */
