@@ -155,10 +155,10 @@ body > *:not(.butterfly-layer) {
   text-align: center;
   color: #fff;
 
-  background-image: url('../img/portada-og.png');
-  background-size: contain;
+  background-image: url('../img/Fondo.png');
+  background-size:400px;
   background-repeat: no-repeat;
-  background-position: left bottom;
+  background-position:left bottom ;
   
 }
 
@@ -181,18 +181,21 @@ body > *:not(.butterfly-layer) {
 }
 
 .hero-subtitle {
-  font-family: 'Kaushan','Kaushan ', normal;
-  font-size: 45px;
+  font-family: 'Kaushan Script','Kaushan Script Fallback', normal;
+  font-size: 30px;
   color: #ffffff;
   margin: 0 0 4px;
+  padding: 0 20px;
   letter-spacing: 1px;
-  position:sticky;
 }
 
 .hero-name {
-  font-family: 'Great Vibes','Great Vibes Fallback';
+  font-family: 'Celebrate';
+  src: url('../font/celebrate.ttf') format('truetype');
+    font-weight: normal;
+  font-style: normal;
   font-weight: 400;
-  font-size: 84px;
+  font-size: 120px;
   font-style: normal;
   margin: 0 0 8px;
   line-height: 1.05;
